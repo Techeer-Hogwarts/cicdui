@@ -88,8 +88,9 @@
 				<button
 					class="hover:bg-muted dropdown-trigger flex h-8 w-8 items-center justify-center rounded-md border transition-colors"
 					on:click|stopPropagation={() => (dropdownOpen = !dropdownOpen)}
-					aria-haspopup="true" aria-expanded={dropdownOpen}
-					>
+					aria-haspopup="true"
+					aria-expanded={dropdownOpen}
+				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						width="24"
