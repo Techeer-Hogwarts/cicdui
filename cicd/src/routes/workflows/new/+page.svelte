@@ -143,6 +143,6 @@
 	{/if}
 
 	<button on:click={createWorkflow} class="w-full rounded-md bg-blue-600 py-2 text-white">
-		Create Workflow
+		워크플로우 수정
 	</button>
 </div>

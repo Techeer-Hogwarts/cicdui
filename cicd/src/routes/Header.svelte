@@ -6,13 +6,13 @@
 	<nav>
 		<!-- make the component to be centered -->
 		<ul>
-			<li aria-current={page.url.pathname === '/' ? 'page' : undefined}>
+			<li aria-current={page.url.pathname === '/login' ? 'page' : undefined}>
 				<a href="/login">Login</a>
 			</li>
-			<li aria-current={page.url.pathname === '/about' ? 'page' : undefined}>
+			<li aria-current={page.url.pathname === '/reset' ? 'page' : undefined}>
 				<a href="/reset">Reset</a>
 			</li>
-			<li aria-current={page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
+			<li aria-current={page.url.pathname === '/workflows' ? 'page' : undefined}>
 				<a href="/workflows">Workflows</a>
 			</li>
 		</ul>

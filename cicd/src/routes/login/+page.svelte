@@ -29,7 +29,7 @@
 		try {
 			loading = true;
 
-			const response = await fetch('https://your-api-server.com/login', {
+			const response = await fetch(import.meta.env.VITE_API_URL + '/change-password', {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json'
@@ -44,17 +44,17 @@
 			}
 
 			if (data.requires_password_reset) {
-				goto('/reset-password'); // Redirect user to password reset page
+				goto('/reset'); // Redirect user to password reset page
 				return;
 			}
 
 			// Store the token
-			if (data.token) {
-				localStorage.setItem('token', data.token);
-			}
+			// if (data.token) {
+			// 	localStorage.setItem('token', data.token);
+			// }
 
 			// Redirect to dashboard if no reset is needed
-			goto('/dashboard');
+			goto('/workflows');
 		} catch (error) {
 			errorMessage = error instanceof Error ? error.message : 'An error occurred during login';
 		} finally {

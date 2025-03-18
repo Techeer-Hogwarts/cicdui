@@ -37,7 +37,7 @@
 			loading = true;
 
 			// Replace with your API endpoint
-			const response = await fetch('https://your-api-server.com/change-password', {
+			const response = await fetch(import.meta.env.VITE_API_URL + '/change-password', {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json'

@@ -110,7 +110,7 @@
 				href="/workflows/new"
 				class="ring-offset-background focus-visible:ring-ring bg-primary text-primary-foreground hover:bg-primary/90 mt-4 inline-flex h-10 items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50"
 			>
-				Create Workflow
+				워크플로우 생성
 			</a>
 		</div>
 	{:else}

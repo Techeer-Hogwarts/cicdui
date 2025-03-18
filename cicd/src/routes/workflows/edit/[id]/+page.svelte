@@ -82,7 +82,7 @@
 </script>
 
 <div class="mx-auto max-w-lg rounded-lg bg-white p-6 shadow-md">
-	<h2 class="mb-4 text-2xl font-semibold">Create Workflow</h2>
+	<h2 class="mb-4 text-2xl font-semibold">워크플로우 편집</h2>
 
 	<div class="mb-4">
 		<label class="block text-sm font-medium">Name</label>
