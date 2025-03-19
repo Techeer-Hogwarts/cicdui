@@ -15,6 +15,9 @@
 			<li aria-current={page.url.pathname === '/workflows' ? 'page' : undefined}>
 				<a href="/workflows">Workflows</a>
 			</li>
+			<li aria-current={page.url.pathname === '/logout' ? 'page' : undefined}>
+				<a href="/logout">logout</a>
+			</li>
 		</ul>
 	</nav>
 </header>
